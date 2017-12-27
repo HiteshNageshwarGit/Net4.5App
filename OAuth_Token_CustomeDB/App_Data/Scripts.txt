@@ -1,0 +1,20 @@
+﻿http://www.advancesharp.com/blog/1216/oauth-web-api-token-based-authentication-with-custom-database
+
+
+Install-package Microsoft.AspNet.WebApi.Owin
+Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.AspNet.Identity.Owin
+
+ <add key="owin:AppStartup" value="OAuth_Token_CustomeDB.App_Start.Startup"/>
+
+Content-Type:application/x-www-form-urlencoded 
+grant_type:password
+username:Admin@Admin.com
+password:Admin
+
+
+http://localhost:49468/api/account/getuser/101
+Authoriz
+ation:bearer DpLuVwj2sA6wzvO9ShgfewEPhlnu1OKXelNdeVURElGHnf1TfHUj6AlyzSZKSVT4Jegm2fI2ANDCbanhWYQs5jYW5BbUFixOidMVR7Ka5Zj3wQsJy2NopLmxA5NbGl4-wMvAvR-x0cmiTG7xcqsJwWYJGE7YVsoffZ45tvigsd_JXREo03O2dNJJpqGNOkKYbRao8Oe6MVgzJPjerx5K9NEuC2MnDeGP6NT0UcmRQYrFuNaScSovEiqCUbe9twPTg16ZgZm2z8cUrzyDdH-P-zBeo-G29T-d2tgyrdqrIzLzvaEW3z6Awf8EfAn8ToahJalndt-TnvpMQDMr_Omi9A
+
+Install-package Microsoft.Owin.Cors
