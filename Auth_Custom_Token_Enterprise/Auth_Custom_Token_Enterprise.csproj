@@ -250,9 +250,9 @@
     <Compile Include="Results\ChallengeResult.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Auth_Custom_Token_Enterprise_DB.mdf" />
-    <Content Include="App_Data\Auth_Custom_Token_Enterprise_DB_log.ldf">
-      <DependentUpon>Auth_Custom_Token_Enterprise_DB.mdf</DependentUpon>
+    <Content Include="App_Data\Auth_Custom_Token_Enterprise.mdf" />
+    <Content Include="App_Data\Auth_Custom_Token_Enterprise_log.ldf">
+      <DependentUpon>Auth_Custom_Token_Enterprise.mdf</DependentUpon>
     </Content>
     <Content Include="App_Data\DBScript.sql" />
     <Content Include="App_Data\Scripts.txt" />
