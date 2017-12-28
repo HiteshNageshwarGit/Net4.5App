@@ -1,0 +1,9 @@
+﻿https://www.codeproject.com/Articles/1183150/Securing-ASP-NET-Web-API-using-Custom-Token-Based 
+
+
+
+update-package microsoft.aspnet.webapi -reinstall
+Install-Package Microsoft.AspNet.WebApi.OwinSelfHost
+Install-Package Microsoft.Owin.Security.OAuth
+[assembly: OwinStartup(typeof(Auth_Custom_Token_Enterprise.App_Start.Startup))]
+
